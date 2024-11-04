@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class Spawner : MonoBehaviour
     private void Start()
     {
         InvokeRepeating("Spawn", 0, spawnInterval);
+    }
+
+    private void Update()
+    {
     }
 
     void Spawn()
