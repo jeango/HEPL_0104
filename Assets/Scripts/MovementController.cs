@@ -14,13 +14,19 @@ public class MovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        MoveDynamic();
+        if (body && body.isKinematic == false)
+        {
+            MoveDynamic();
+        }
     }
     
     // Update is called once per frame
     void Update()
     {
-        Move();
+        if (!body || body.isKinematic)
+        {
+            Move();
+        }
     }
     
     public void SetDirection(InputAction.CallbackContext context)
