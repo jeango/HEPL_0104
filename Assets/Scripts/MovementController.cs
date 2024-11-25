@@ -5,12 +5,18 @@ public class MovementController : MonoBehaviour
 {
     public Vector2 direction;
     public int speed;
-    // Start is called before the first frame update
-    void Start()
+    public Rigidbody2D body;
+
+    private void MoveDynamic()
     {
-        
+        body.velocity = direction * speed;
     }
 
+    void FixedUpdate()
+    {
+        MoveDynamic();
+    }
+    
     // Update is called once per frame
     void Update()
     {
