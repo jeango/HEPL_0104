@@ -15,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../HEPL Invaders0104/Assets/Scripts/Spawner.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -85,6 +86,7 @@
       <updated>1730725079268</updated>
       <workItem from="1730725080345" duration="4440000" />
       <workItem from="1732539449348" duration="3751000" />
+      <workItem from="1733146323206" duration="1877000" />
     </task>
     <servers />
   </component>
