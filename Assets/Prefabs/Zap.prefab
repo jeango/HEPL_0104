@@ -124,6 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0}
   speed: 20
+  body: {fileID: 0}
 --- !u!50 &-403048391704438238
 Rigidbody2D:
   serializedVersion: 4
@@ -210,3 +211,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagsToDamage:
   - Enemy
+  canKill: 1
